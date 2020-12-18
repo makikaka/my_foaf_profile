@@ -1,41 +1,33 @@
-<div prefix="
-    xmlns=http://www.w3.org/1999/xhtml
-    foaf: http://xmlns.com/foaf/0.1/
-    admin: http://webns.net/mvcb/
-    rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
-    rdfs: http://www.w3.org/2000/01/rdf-schema#">
-  <div typeof="foaf:PersonalProfileDocument" about="https://raw.githubusercontent.com/makikaka/my_foaf_profile/master/my_foaf.ttl">
-    <div rel="admin:errorReportsTo" resource="mailto:leigh@ldodds.com"></div>
-    <div rel="foaf:maker">
-      <div typeof="foaf:Person" about="https://raw.githubusercontent.com/makikaka/my_foaf_profile/master/my_foaf.ttl#me">
-        <div property="foaf:mbox_sha1sum" content="2f1997cf1801b95b0e12d2b73f4b345e6f4d6186"></div>
-        <div rel="foaf:schoolHomepage" resource="https://www.finki.ukim.mk/"></div>
-        <div property="foaf:nick" content="maki"></div>
-        <div property="foaf:family_name" content="Tasevski"></div>
-        <div rel="foaf:knows">
-          <div typeof="foaf:Person">
-            <div property="foaf:mbox_sha1sum" content="071606d17a16843e5ae07d8b1b86d07a0015ca9d"></div>
-            <div property="foaf:name" content="Andrej Milovanovic"></div>
-          </div>
-        </div>
-        <div property="foaf:givenname" content="Mladen"></div>
-        <div rel="foaf:phone" resource="tel:1-305-399-0027"></div>
-        <div rel="foaf:knows">
-          <div typeof="foaf:Person">
-            <div property="foaf:name" content="Jana Nikolovska"></div>
-            <div property="foaf:mbox_sha1sum" content="f3daa6c4847f0c092c36eaf6050f562c2b611a32"></div>
-          </div>
-        </div>
-        <div rel="foaf:knows">
-          <div typeof="foaf:Person">
-            <div property="foaf:name" content="David Galevski"></div>
-            <div property="foaf:mbox_sha1sum" content="0d9dd2203f15c8556cba3a96fc78c7a599fff53e"></div>
-          </div>
-        </div>
-        <div property="foaf:name" content="Mladen Tasevski"></div>
-      </div>
-    </div>
-    <div rel="admin:generatorAgent" resource="http://www.ldodds.com/foaf/foaf-a-matic"></div>
-    <div rel="foaf:primaryTopic" resource="https://raw.githubusercontent.com/makikaka/my_foaf_profile/master/my_foaf.ttl#me"></div>
-  </div>
-</div>
+<rdf:RDF
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:admin="http://webns.net/mvcb/"
+      xml:base="https://raw.githubusercontent.com/makikaka/my_foaf_profile/master/my_foaf.ttl">
+<foaf:PersonalProfileDocument rdf:about="">
+  <foaf:maker rdf:resource="#me"/>
+  <foaf:primaryTopic rdf:resource="#me"/>
+  <admin:generatorAgent rdf:resource="http://www.ldodds.com/foaf/foaf-a-matic"/>
+  <admin:errorReportsTo rdf:resource="mailto:leigh@ldodds.com"/>
+</foaf:PersonalProfileDocument>
+<foaf:Person rdf:ID="me">
+<foaf:name>Mladen Tasevski</foaf:name>
+<foaf:givenname>Mladen</foaf:givenname>
+<foaf:family_name>Tasevski</foaf:family_name>
+<foaf:nick>maki</foaf:nick>
+<foaf:mbox_sha1sum>2f1997cf1801b95b0e12d2b73f4b345e6f4d6186</foaf:mbox_sha1sum>
+<foaf:phone rdf:resource="tel:1-305-399-0027"/>
+<foaf:schoolHomepage rdf:resource="https://www.finki.ukim.mk/"/>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>David Galevski</foaf:name>
+<foaf:mbox_sha1sum>0d9dd2203f15c8556cba3a96fc78c7a599fff53e</foaf:mbox_sha1sum></foaf:Person></foaf:knows>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Andrej Milovanovic</foaf:name>
+<foaf:mbox_sha1sum>071606d17a16843e5ae07d8b1b86d07a0015ca9d</foaf:mbox_sha1sum></foaf:Person></foaf:knows>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Jana Nikolovska</foaf:name>
+<foaf:mbox_sha1sum>f3daa6c4847f0c092c36eaf6050f562c2b611a32</foaf:mbox_sha1sum></foaf:Person></foaf:knows></foaf:Person>
+</rdf:RDF>
