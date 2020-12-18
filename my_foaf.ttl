@@ -1,10 +1,9 @@
-<div xmlns="http://www.w3.org/1999/xhtml"
-  prefix="
+<div prefix="
+    xmlns=http://www.w3.org/1999/xhtml
     foaf: http://xmlns.com/foaf/0.1/
     admin: http://webns.net/mvcb/
     rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
-    rdfs: http://www.w3.org/2000/01/rdf-schema#"
-  >
+    rdfs: http://www.w3.org/2000/01/rdf-schema#">
   <div typeof="foaf:PersonalProfileDocument" about="https://raw.githubusercontent.com/makikaka/my_foaf_profile/master/my_foaf.ttl">
     <div rel="admin:errorReportsTo" resource="mailto:leigh@ldodds.com"></div>
     <div rel="foaf:maker">
