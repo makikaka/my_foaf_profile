@@ -20,13 +20,16 @@
   foaf:knows [
     a foaf:Person ;
     foaf:name "David Galevski" ;
-    foaf:mbox_sha1sum "0d9dd2203f15c8556cba3a96fc78c7a599fff53e"
+    foaf:mbox_sha1sum "12f069550a7e3be3198b8331a8ab7e7fe548edf0"
+    rdfs:seeAlso <https://raw.githubusercontent.com/becutandavid/FOAF/main/foaf.ttl>
   ], [
     a foaf:Person ;
     foaf:name "Andrej Milovanovic" ;
     foaf:mbox_sha1sum "071606d17a16843e5ae07d8b1b86d07a0015ca9d"
+    rdfs:seeAlso <https://raw.githubusercontent.com/amilovanovikj/FOAF/master/foaf.ttl>
   ], [
     a foaf:Person ;
     foaf:name "Jana Nikolovska" ;
     foaf:mbox_sha1sum "f3daa6c4847f0c092c36eaf6050f562c2b611a32"
+    rdfs:seeAlso <https://raw.githubusercontent.com/jananikolovska/WBS/main/foaf.ttl>
   ] .
